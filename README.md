@@ -20,7 +20,7 @@ python game.py
 Move the cannon by pressing left and right keys.<br/>
 Shoot by pressing space key.<br/>
 
-The goal is to hit airplanes and much as possible,<br/>
+The goal is to hit airplanes as much as possible,<br/>
 the more airplanes you hit, the faster they move.
 
 
