@@ -3,7 +3,7 @@ Small game with cannon and planes
 
 ## Demo
 
-![alt text](https://github.com/caiovini/pixel-cannon/blob/master/Demo.gif)
+![alt text](https://github.com/caiovini/pixel-cannon/blob/main/Demo.gif)
 
 ## Instructions 
 
