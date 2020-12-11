@@ -2,7 +2,7 @@ import pygame as pg
 
 from os.path import join
 
-_back_ground_path = join("assets", "cannon-ball", "PNG", "background.png")
+_background_path = join("assets", "cannon-ball", "PNG", "background.png")
 _ground_path = join("assets", "cannon-ball", "PNG", "ground.png")
 _cannon_base_path = join("assets", "cannon-ball", "PNG", "cannon2.png")
 _cannon_path = join("assets", "cannon-ball", "PNG", "cannon.png")
@@ -27,7 +27,7 @@ class Base(pg.sprite.Sprite):
 class Background(Base):
 
     def __init__(self):
-        image = pg.image.load(_back_ground_path).convert_alpha()
+        image = pg.image.load(_background_path).convert_alpha()
         Base.__init__(self, image)
 
 
