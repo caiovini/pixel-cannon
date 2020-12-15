@@ -56,9 +56,7 @@ class Cannon(Base):
     def rotate(self, angle):
 
         self.angle += angle
-        orig_rect = self.image.get_rect()
-        rot_image = pg.transform.rotate(self.image, self.angle)
-        self.rotate_image = rot_image
+        self.rotate_image = pg.transform.rotate(self.image, self.angle)
 
     def check_collision(self, object_):
         return self.rect.colliderect(object_.rect)
